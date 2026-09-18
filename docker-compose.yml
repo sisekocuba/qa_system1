@@ -1,4 +1,3 @@
-# docker-compose.weaviate.yml (API + Weaviate)
 version: "3.9"
 services:
   api:
