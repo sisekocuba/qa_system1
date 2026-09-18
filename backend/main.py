@@ -7,8 +7,10 @@ import os
 app = FastAPI(title="QA System")
 
 # Paths are relative to repo root when running uvicorn from repo root
-INDEX_PATH = os.environ.get("FAISS_INDEX_PATH", "data/faiss.index")
+INDEX_EMB_PATH = os.environ.get("EMB_PATH", "data/embeddings.npy")
 META_PATH = os.environ.get("META_PATH", "data/meta.json")
+
+retriever = Retriever(embeddings_path=INDEX_EMB_PATH, meta_path=META_PATH)
 
 retriever = Retriever(index_path=INDEX_PATH, meta_path=META_PATH)
 summarizer = Summarizer()
