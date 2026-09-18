@@ -1,0 +1,22 @@
+[
+  {
+    "q": "Tell me about MedAI",
+    "a": "MedAI is a diagnostic support tool that reduces diagnostic errors by 20%"
+  },
+  {
+    "q": "How many annual leave days do employees get?",
+    "a": "20 days"
+  },
+  {
+    "q": "Can employees work remotely?",
+    "a": "Yes, with management approval"
+  },
+  {
+    "q": "What industries does the company specialize in?",
+    "a": "healthcare and finance"
+  },
+  {
+    "q": "What training must staff complete?",
+    "a": "Annual cybersecurity training"
+  }
+]
